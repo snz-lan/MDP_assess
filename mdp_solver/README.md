@@ -15,5 +15,3 @@ Clone the repository:
 ```bash
 git clone https://github.com/snz-lan/MDP_assess.git
 
-Jupyter Notebook: 
-pip install git+https://github.com/snz-lan/MDP_assess.git
