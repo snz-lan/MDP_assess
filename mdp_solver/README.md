@@ -13,4 +13,7 @@ The package allows you to define an MDP by specifying its states, actions, trans
 
 Clone the repository:
 ```bash
-git clone https://github.com/yourusername/mdp_solver_project.git
+git clone https://github.com/snz-lan/MDP_assess.git
+
+Jupyter Notebook: 
+pip install git+https://github.com/snz-lan/MDP_assess.git
