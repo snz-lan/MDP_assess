@@ -94,7 +94,6 @@ You should have received a copy of the GNU General Public License along with thi
 # Contributors
 
 - [Shahnaz Abdul Hameed] – Author, Maintainer  
-  (Add any other contributors if applicable)
 
 # How to Cite This Work
 
