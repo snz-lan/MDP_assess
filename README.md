@@ -18,6 +18,8 @@ This project provides a solution to Markov Decision Process (MDP) problems using
    - [Value Iteration](#value-iteration)
 3. [Tests](#tests)
 4. [License](#license)
+5. [Contributors (#contributors)]
+6. [How To Cite (#howtocite)]
 
 ---
 
@@ -63,7 +65,7 @@ value_function, policy = value_iteration(states, actions, transition_probabiliti
 print("Optimal Value Function:", value_function)
 print("Optimal Policy:", policy)
 ```
-#### Tests
+## Tests
 The project includes unit tests to verify the correctness of the algorithms. Tests are located in the tests/ directory.
 
 ### Running Tests Locally
@@ -81,7 +83,7 @@ python -m unittest tests.test_value_iteration
 ```
 The test suite will check if the algorithms behave as expected under various conditions.
 
-# License
+## License
 
 Copyright (C) 2025 [Your Name]
 
@@ -91,11 +93,11 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 
 You should have received a copy of the GNU General Public License along with this program. If not, see [https://www.gnu.org/licenses/gpl-3.0.txt](https://www.gnu.org/licenses/gpl-3.0.txt).
 
-# Contributors
+## Contributors
 
 - [Shahnaz Abdul Hameed] – Author, Maintainer  
 
-# How to Cite This Work
+## How to Cite This Work
 
 If you use this package in your research, please consider citing it as:
 
