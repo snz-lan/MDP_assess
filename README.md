@@ -2,12 +2,11 @@
 
 ## Overview
 
-This project provides a solution to Markov Decision Process (MDP) problems using value iteration and policy iteration algorithms. It includes tools to solve the MDP, along with a suite of tests and examples demonstrating how to use the package. The goal is to create an easy-to-use Python package for anyone interested in solving MDP problems.
+This project provides a solution to Markov Decision Process (MDP) problems using the value iteration algorithm. It includes tools to solve the MDP, along with tests and examples demonstrating how to use the package. The goal is to create an easy-to-use Python package for anyone interested in solving MDP problems.
 
 ### Features:
 - **Value Iteration**: Implementation of the value iteration algorithm to solve MDPs.
-- **Policy Iteration**: Implementation of the policy iteration algorithm.
-- **Testing Suite**: Unit tests for verifying correctness of the algorithms.
+- **Testing**: Unit tests for verifying correctness of the algorithms.
 - **Examples**: Sample usage of the algorithms in different MDP scenarios.
 
 ---
