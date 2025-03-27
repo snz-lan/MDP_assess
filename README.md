@@ -18,8 +18,9 @@ This project provides a solution to Markov Decision Process (MDP) problems using
    - [Value Iteration](#value-iteration)
 3. [Tests](#tests)
 4. [License](#license)
-5. [Contributors (#contributors)]
-6. [How To Cite (#howtocite)]
+5. [Contributors](#contributors)
+6. [How to Cite This Work](#how-to-cite-this-work)
+
 
 ---
 
