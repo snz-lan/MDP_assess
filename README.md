@@ -16,10 +16,8 @@ This project provides a solution to Markov Decision Process (MDP) problems using
 1. [Installation](#installation)
 2. [Usage](#usage)
    - [Value Iteration](#value-iteration)
-   - [Policy Iteration](#policy-iteration)
 3. [Tests](#tests)
-4. [Contributing](#contributing)
-5. [License](#license)
+4. [License](#license)
 
 ---
 
