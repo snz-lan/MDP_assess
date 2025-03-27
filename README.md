@@ -1,4 +1,4 @@
-# MDP Solver - Value Iteration and Policy Iteration
+# MDP Solver - Value Iteration 
 
 ## Overview
 
@@ -33,7 +33,7 @@ pip install git+https://github.com/snz-lan/MDP_assess.git
 ```
 ## Usage
 
-Once installed, you can import the package and use the algorithms. Below are examples of how to use the **Value Iteration** and **Policy Iteration** algorithms.
+Once installed, you can import the package and use the algorithms. Below are examples of how to use the **Value Iteration**  algorithm.
 
 ### Value Iteration
 
@@ -80,6 +80,35 @@ You can also run individual test files:
 python -m unittest tests.test_value_iteration
 ```
 The test suite will check if the algorithms behave as expected under various conditions.
+
+# License
+
+Copyright (C) 2025 [Your Name]
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program. If not, see [https://www.gnu.org/licenses/gpl-3.0.txt](https://www.gnu.org/licenses/gpl-3.0.txt).
+
+# Contributors
+
+- [Shahnaz Abdul Hameed] – Author, Maintainer  
+  (Add any other contributors if applicable)
+
+# How to Cite This Work
+
+If you use this package in your research, please consider citing it as:
+
+```bibtex
+@software{mdp_solver_2025,
+  author       = {Shahnaz Abdul Hameed},
+  title        = {MDP_solver: A Markov Decision Process Solver},
+  month        = Mar,
+  year         = 2025,
+  version      = {v1.0},
+  url          = {https://github.com/snz-lan/MDP_assess}
+}
 
 
 
