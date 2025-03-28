@@ -47,24 +47,39 @@ The value iteration algorithm is used to compute the optimal value function and 
 ```python
 from mdp_solver.value_iter import value_iteration
 
-# Define the MDP parameters (states, actions, transitions, and rewards)
+# Defining the MDP for Sam's problem
 states = ['healthy', 'sick']
 actions = ['relax', 'party']
-transition_probabilities = {
-    'healthy': {'relax': {'healthy': 0.95, 'sick': 0.05}, 'party': {'healthy': 0.7, 'sick': 0.3}},
-    'sick': {'relax': {'healthy': 0.5, 'sick': 0.5}, 'party': {'healthy': 0.1, 'sick': 0.9}},
+
+# transition probabilities as given:
+transition_probs = {
+    'healthy': {
+        'relax': {'healthy': 0.95, 'sick': 0.05},
+        'party': {'healthy': 0.7, 'sick': 0.3}
+    },
+    'sick': {
+        'relax': {'healthy': 0.5, 'sick': 0.5},
+        'party': {'healthy': 0.1, 'sick': 0.9}
+    }
 }
+
+# imm. rewards as given:
 rewards = {
-    'healthy': {'relax': 7, 'party': 10},
-    'sick': {'relax': 0, 'party': 2},
+    ('healthy', 'relax'): 7,
+    ('healthy', 'party'): 10,
+    ('sick', 'relax'): 0,
+    ('sick', 'party'): 2
 }
-gamma = 0.8  # Discount factor
 
-# Call the value iteration function
-value_function, policy = value_iteration(states, actions, transition_probabilities, rewards, gamma)
+# a discount factor gamma = 0.8, as specified in the example.
+gamma = 0.8
+max_iter = 1000
 
-print("Optimal Value Function:", value_function)
+# Run value iteration
+policy, values = value_iteration(states, actions, transition_probs, rewards, gamma=gamma, max_iter=max_iter)
+
 print("Optimal Policy:", policy)
+print("Optimal Values:", values)
 ```
 ## Tests
 The project includes unit tests to verify the correctness of the algorithms. Tests are located in the tests/ directory.
