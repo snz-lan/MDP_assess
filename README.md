@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project provides a solution to Markov Decision Process (MDP) problems using the value iteration algorithm. It includes tools to solve the MDP, along with tests and examples demonstrating how to use the package. The goal is to create an easy-to-use Python package for anyone interested in solving MDP problems.
+This project provides a solution to Markov Decision Process (MDP) problems using the value iteration algorithm. It includes an implementation of value iteration algorithm to solve the MDP, along with tests and examples demonstrating how to use the package. The goal is to create an easy-to-use Python package for anyone interested in solving MDP problems.
 
 ### Features:
 - **Value Iteration**: Implementation of the value iteration algorithm to solve MDPs.
@@ -86,7 +86,7 @@ The test suite will check if the algorithms behave as expected under various con
 
 ## License
 
-Copyright (C) 2025 [Your Name]
+Copyright (C) 2025 [Shahnaz Abdul Hameed]
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
