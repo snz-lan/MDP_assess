@@ -90,14 +90,14 @@ Navigate to the root directory of the project.
 Run the tests using unittest:
 
 ```bash
-python -m unittest discover -s tests
+python -m unittest discover mdp_solver/tests
 ```
 You can also run individual test files:
 
 ```bash
-python -m unittest tests.test_value_iteration
+!python -m mdp_solver.examples
 ```
-The test suite will check if the algorithms behave as expected under various conditions.
+The test suite will check if the algorithms behave as expected under different conditions.
 
 ## License
 
