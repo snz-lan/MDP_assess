@@ -23,11 +23,11 @@ def run_sam_example():
         - (sick, relax): 0
         - (sick, party): 2
     """
-    # Define the states and actions
+    # Defining the states and actions
     states = ['healthy', 'sick']
     actions = ['relax', 'party']
     
-    # Transition probability dictionary
+    # this is the transition prob. dictionary
     transition_probs = {
         'healthy': {
             'relax': {'healthy': 0.95, 'sick': 0.05},
@@ -47,10 +47,13 @@ def run_sam_example():
         ('sick', 'party'): 2
     }
     
-    # Run value iteration on Sam's MDP
+    # Running value iteration on Sam's MDP
     policy, values = value_iteration(states, actions, transition_probs, rewards, gamma=0.9, max_iter=1000)
     print("Sam's Optimal Policy:", policy)
     print("Sam's Value Function:", values)
 
 if __name__ == '__main__':
     run_sam_example()
+
+def change(m):
+    print("this is a new change")

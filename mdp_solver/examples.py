@@ -54,3 +54,6 @@ def run_sam_example():
 
 if __name__ == '__main__':
     run_sam_example()
+
+def change(m):
+    print("this is a new change")
